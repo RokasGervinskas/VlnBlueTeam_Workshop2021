@@ -42,7 +42,6 @@ test.describe('', () => {
       page.waitForNavigation(/*{ url: 'https://lunch.devbstaging.com/dishes/monday/Talutti' }*/),
       page.click('button:has-text("Login")')
     ]);
-          // PO SITU GALIMA DARYTI
 
     // Click main >> text=Cili
     await page.click('main >> text=Cili');
