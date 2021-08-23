@@ -1,0 +1,23 @@
+{
+  "name": "vlnblueteam_workshop2021",
+  "version": "1.0.0",
+  "description": "First Commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasGervinskas/VlnBlueTeam_Workshop2021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RokasGervinskas/VlnBlueTeam_Workshop2021/issues"
+  },
+  "homepage": "https://github.com/RokasGervinskas/VlnBlueTeam_Workshop2021#readme",
+  "dependencies": {
+    "@playwright/test": "^1.14.0"
+  }
+}
