@@ -4,7 +4,7 @@ exports.StartPage = class StartPage {
     }
 
     async goto() {
-    await this.page.goto('https://start.duckduckgo.com/');
+    await this.page.goto('https://lunch.devbstaging.com/login-password');
     }
  
     
@@ -13,4 +13,6 @@ exports.StartPage = class StartPage {
     await this.page.click("#search_button_homepage");
     await this.page.waitForNavigation();
     }
+
+    
 }
